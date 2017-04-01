@@ -1,6 +1,6 @@
 # Git Manual
 
-![http://onq7gdyen.bkt.clouddn.com/bg2014061202.jpg](图1)
+![图1](http://onq7gdyen.bkt.clouddn.com/bg2014061202.jpg)
 
 1. git clone
 
