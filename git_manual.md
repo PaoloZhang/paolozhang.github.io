@@ -2,11 +2,27 @@
 
 ![图1](http://onq7gdyen.bkt.clouddn.com/bg2014061202.jpg)
 
-1. git clone
+1. verbose
 
-   `git clone <版本库网址> <本地目录>` 从远程clone一个代码库
+   git status
 
-2. git remote
+   git log
+
+   git diff \<file>
+
+2. initialize
+
+   git init 
+
+   git add \<file1 file2 … filen>
+
+   git commit -m <"message">
+
+3. git clone
+
+   `git clone <版本库网址> <本地目录>`  从远程clone一个代码库
+
+4. git remote
 
    git remote [-v]  查看远程主机的网址
 
@@ -16,7 +32,7 @@
 
    git remote rename <原主机名> <新主机名>
 
-3. git fetch
+5. git fetch
 
    `git fetch <远程主机名>`  取回主机的所有更新
 
@@ -40,7 +56,7 @@
 
    以上两条命令，在当前分支上，合并origin/master。
 
-4. git pull
+6. git pull
 
    取回远程主机某个分支的更新，再与本地的指定分支合并。
 
@@ -56,7 +72,7 @@
 
    git merge origin/next
 
-5. git push
+7. git push
 
    用于将本地分支更新，推送到远程主机。
 
@@ -78,7 +94,7 @@
 
    git push不会推送标签，除非使用—tag选项。
 
-   git push orgin —tag
+   git push orgin --tag
 
    ​
 

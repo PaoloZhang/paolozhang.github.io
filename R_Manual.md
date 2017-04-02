@@ -4,9 +4,9 @@
 
 help.start()
 
-?fun_name
+?fun_name()
 
-??fun_name
+??fun_name()
 
 example(fun_name)
 
@@ -92,9 +92,31 @@ or
 
 A data frame is list with class "data.frame". A data frame may be regarded as a matrix with columns(components) possibly of differring modes and attributes. It may be displayed in matrix form.
 
+## Reading data from file
 
+read.table()
 
+To read an entire data frame.
 
+what is data frame? 
 
+```
+   Price Floor Area Rooms
+01 52.00 111.0 830    5
+02 54.75 128.0 710    4
+03 57.50 101.0 1000   6
+```
 
+01 02 03 叫做 label; Price Floor Area Rooms 叫做 name(或者叫header)。
+
+如果没有label
+
+```
+Price Floor Area Rooms
+52.00 111.0 830    5
+54.75 128.0 710    4
+57.50 101.0 1000   6
+```
+
+读取的函数为：read.data(\<file_name>,header = TRUE)
 
